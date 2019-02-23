@@ -1,0 +1,14 @@
+{
+  "name": "delete",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "html-includes --src src --dest dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-includes": "^4.0.0"
+  }
+}
