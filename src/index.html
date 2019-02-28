@@ -4,8 +4,9 @@
   </head>
   <body>
     <main>
-      ${require('./_main.html') prop1="index prop one" prop2="index prop two"}
-      ${require('./sub/_sub.html') prop1="sub prop one" prop2="sub prop two"}
+      ${require('./_main.html') prop1="Prop one" prop2="Prop two"}
+      ${require('/_absolute-path.html')}
+      ${require('./component/_sub.html')}
     </main>
   </body>
 </html>
