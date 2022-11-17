@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "html-includes": "^4.4.0"
+    "html-includes": "^5.0.0"
   }
 }

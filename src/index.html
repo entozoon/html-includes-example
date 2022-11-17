@@ -7,8 +7,10 @@
   </head>
   <body>
     <main>
-      ${require('./_main.html') prop1="Prop one" prop2="Prop two"}
-      ${require('/_absolute-path.html')} ${require('./component/_sub.html')}
+      ${require('./_main.html') prop1=`prop1 example` prop2=`<a
+        href="http://example2.com"
+        >prop2</a
+      >`} ${require('/_absolute-path.html')} ${require('./component/_sub.html')}
     </main>
   </body>
 </html>
